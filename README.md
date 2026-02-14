@@ -2,6 +2,8 @@
 
 Este proyecto es una aplicación práctica construida con **Next.js** y **React** para gestionar una lista de pedidos de pizza. A continuación, se detalla la arquitectura y el flujo de datos de la aplicación.
 
+### Instalar las dependencias, despues de clonar este proyecto en VCS :  npm install y posterior : npm run dev
+
 ## 🧠 Arquitectura y Flujo de Datos
 
 La aplicación sigue el patrón de diseño de **"Componentes Controlados"** y **"Flujo de Datos Unidireccional"**. Aquí explicamos paso a paso qué sucede "bajo el capó":
@@ -37,3 +39,6 @@ Cuando el Padre recibe la nueva orden, debe actualizar su estado. En React, **nu
 Usamos el **Spread Operator** para crear un nuevo array:
 ```javascript
 setOrdenes([...ordenes, nuevaOrden]);
+
+
+
